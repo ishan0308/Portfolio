@@ -33,8 +33,8 @@ export const Contact = () => {
 
     emailjs
       .send(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Isha Nema",
@@ -42,7 +42,7 @@ export const Contact = () => {
           to_email: "ishanemawork@gmail.com",
           message: form.message,
         },
-        process.env.PUBLIC_ID
+        process.env.REACT_APP_PUBLIC_ID
       )
       .then(
         () => {
