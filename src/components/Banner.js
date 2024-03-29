@@ -3,7 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
+import { HashLink } from 'react-router-hash-link';
 import TrackVisibility from 'react-on-screen';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,6 +63,7 @@ export const Banner = () => {
   }
 
   return (
+    <Router>
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
@@ -68,7 +74,10 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Isha!`}</h1>
                 <h1 style={{ fontSize: textSize.sm }}><span className="txt-rotate" dataPeriod="100" data-rotate='[ "Software Developer", "Web Developer", "DevOps Engineer","Cloud Engineer"]'><span className="wrap">{text}</span></span></h1>
                   <p>Highly motivated and results-driven software developer with a passion for coding and continuous learning. Exceptionally skilled in Python, C, and web development. Experienced in automating cloud certification processes, designing chatbots using AWS, and completing diverse projects showcasing proficiency in various programming languages, frameworks, and tools. Strong analytical mindset, problem-solving abilities, and a collaborative approach to drive innovation and deliver high-quality code. Seeking a challenging software developer position to contribute to a dynamic team and make a positive impact in the industry.</p>
-                  <button className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <HashLink to="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>
+                    <button>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  </HashLink>
+
               </div>}
             </TrackVisibility>
           </Col>
@@ -83,5 +92,6 @@ export const Banner = () => {
         </Row>
       </Container>
     </section>
+    </Router>
   )
 }

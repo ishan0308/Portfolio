@@ -79,7 +79,7 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+                <h2>Get In Touch!</h2>
         <form
           ref={formRef}
           onSubmit={handleSubmit}

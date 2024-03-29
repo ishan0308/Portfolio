@@ -1,6 +1,6 @@
 import meter1 from "../assets/img/python.png";
-import meter2 from "../assets/img/c.png";
-import meter3 from "../assets/img/webdev.png";
+import meter2 from "../assets/img/spring-boot.png";
+import meter3 from "../assets/img/angular.png";
 import meter4 from "../assets/img/aws.png";
 import meter5 from "../assets/img/docker.png";
 import meter6 from "../assets/img/kub.png";
@@ -48,11 +48,11 @@ export const Skills = () => {
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
                                 <img src={meter2} alt="Image" style={{ width: '165px' }}/>
-                                <h5>C</h5>
+                                <h5>Spring-boot</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid ">
                                 <img src={meter3} alt="Image" style={{ width: '192px' }}/>
-                                <h5>Web Development</h5>
+                                <h5>Angular</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
                                 <img src={meter4} alt="Image" style={{ width: '18em' }}/>

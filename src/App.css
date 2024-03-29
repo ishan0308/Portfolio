@@ -157,9 +157,9 @@ span.navbar-text {
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
-	position: relative;
-	background-color: transparent;
-	transition: 0.3s ease-in-out;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
 .navbar-text button span {
   z-index: 1;
@@ -281,6 +281,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner button:hover svg {
   margin-left: 25px;
+}
+
+.banner a {
+    text-decoration: none;
 }
 .banner img {
   animation: updown 3s linear infinite;
@@ -521,11 +525,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .contact form button:hover {
-  color: #fff;
+  background-color: #000;
+  color : #fff;
 }
 .contact form button::before {
-  content: "";
   background: #121212;
+  background-color: #000;
+  color : #fff;
   width: 0;
   height: 100%;
   position: absolute;
@@ -534,8 +540,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
   transition: 0.3s ease-in-out;
 }
+
 .contact form button:hover::before {
   width: 100%;
+  background-color: #000;
+  color : #fff;
 }
 
 /************ Connect Css *************/
