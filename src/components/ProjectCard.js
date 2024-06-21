@@ -1,30 +1,29 @@
 import { Col } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl,content,link }) => {
+
+export const ProjectCard = ({ title, description, imgUrl, content, link }) => {
   return (
-  <Row>
-    <Col size={12} sm={6} md={6}>
-      <a href={link} style={{ color: 'inherit', textDecoration: 'none' }} target="_blank">
-        <div class="col-12" className="proj-imgbx">
-          <img src={imgUrl} />
-           <div className="proj-txtx">
-             <h4>{title}</h4>
-             <span>{description}</span>
-           </div>
+    <Row className="my-3">
+      <Col xs={12} md={6}>
+        <a href={link} style={{ color: 'inherit', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
+          <div className="proj-imgbx">
+            <img src={imgUrl} alt={title} style={{ width: '100%', height: 'auto' }} />
+            <div className="proj-txtx">
+              <h4>{title}</h4>
+              <span>{description}</span>
+            </div>
+          </div>
+        </a>
+      </Col>
+      <Col xs={12} md={6} className="d-flex align-items-center">
+        <div className="mt-3 mt-md-0">
+          <p>{content}</p>
         </div>
-      </a>
-    </Col>
-    <Col size={12} sm={6} md={6}>
-    <div class="d-flex align-items-center justify-content-center h-100">
-      <div class="mt-5">
-            <p class="text-white">{content}</p>
-      </div>
-      </div>
-    </Col>
+      </Col>
     </Row>
-  )
-}
+  );
+};
 export const ProjectCard2 = ({ content}) => {
   const career = {
     border: '5px solid purple',
