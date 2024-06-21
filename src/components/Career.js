@@ -34,7 +34,7 @@ Ansible to streamline the setup and configuration process; automating the downlo
                 </div>
                 <div class="col-lg-6 d-flex align-items-center justify-content-center">
                     <h3 class="d-none d-lg-flex "><ArrowLeft size={100} /></h3>
-                    <h3 >Aug 2023 - Now</h3>
+                    <h3 >Aug 2023 - Present</h3>
                 </div>
             </div>
             <div class="row mt-5 ">
@@ -55,7 +55,7 @@ Ansible to streamline the setup and configuration process; automating the downlo
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 d-lg-none d-flex align-items-center justify-content-center">
-                    <h3>Feb 2022 - Jul 2022</h3>
+                    <h3>Jan 2023 - Jul 2023</h3>
                 </div>
             </div>
             <div class="row mt-5" >
@@ -94,6 +94,9 @@ Ansible to streamline the setup and configuration process; automating the downlo
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-lg-none d-flex align-items-center justify-content-center">
+                    <h3>June 2019 - July 2023</h3>
                 </div>
             </div>
         </div>
