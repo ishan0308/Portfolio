@@ -18,8 +18,31 @@ export const Career = () => {
         <section class="career" id="career">
         <div class="container mb-5">
             <h1>Career Path</h1>
-            <div class="row mt-5" >
-                <div style={career} class="col-lg-6 p-4" >
+            <div class="row mt-5">
+                <div style={career} class="col-lg-6 p-4">
+                    <div class="career-step">
+                        <div class="career-step-content">
+                            <div class="content">
+                                <h3>Cloudera</h3>
+                                <h4>Software Developer Engineer</h4>
+                                <p>• Developed an internal dashboard in Angular and Python, significantly enhancing project management and resource optimizatio</p>
+                                <p>• Enhanced CI/CD pipeline eciency and reliability by automating the deployment of GitHub runners across all repositories using
+Ansible to streamline the setup and configuration process; automating the download of necessary apt packages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                    <h3 class="d-none d-lg-flex "><ArrowLeft size={100} /></h3>
+                    <h3 >Aug 2023 - Now</h3>
+                </div>
+            </div>
+            <div class="row mt-5 ">
+                <div class="col-lg-6 col-sm-12 d-none d-lg-flex align-items-center justify-content-center">
+                    <h3>Jan 2023 - Jul 2023</h3>
+                    <h3><ArrowRight size={100} /></h3>
+                </div>
+                <div style={career} class="col-lg-6 col-sm-12 p-4">
                     <div class="career-step">
                         <div class="career-step-content">
                             <div class="content">
@@ -31,17 +54,12 @@ export const Career = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
-                    <h3 class="d-none d-lg-flex "><ArrowLeft size={100} /></h3>
-                    <h3>Jan 2023 - Jul 2023</h3>
+                <div class="col-lg-6 col-sm-12 d-lg-none d-flex align-items-center justify-content-center">
+                    <h3>Feb 2022 - Jul 2022</h3>
                 </div>
             </div>
-            <div class="row mt-5 ">
-                <div class="col-lg-6 col-sm-12 d-none d-lg-flex align-items-center justify-content-center">
-                    <h3>Feb 2022 - Jul 2022</h3>
-                    <h3><ArrowRight size={100} /></h3>
-                </div>
-                <div style={career} class="col-lg-6 col-sm-12 p-4">
+            <div class="row mt-5" >
+                <div style={career} class="col-lg-6 p-4" >
                     <div class="career-step">
                         <div class="career-step-content">
                             <div class="content">
@@ -53,27 +71,9 @@ export const Career = () => {
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-sm-12 d-lg-none d-flex align-items-center justify-content-center">
-                    <h3>Feb 2022 - Jul 2022</h3>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div style={career} class="col-lg-6 p-4">
-                    <div class="career-step">
-                        <div class="career-step-content">
-                            <div class="content">
-                                <h3>Cloudera</h3>
-                                <h4>Software Developer Engineer</h4>
-                                <p></p>
-                                <br/>
-                                <br/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-6 d-flex align-items-center justify-content-center">
                     <h3 class="d-none d-lg-flex "><ArrowLeft size={100} /></h3>
-                    <h3 >Jan 2023 - Now</h3>
+                    <h3>Feb 2022 - Jul 2022</h3>
                 </div>
             </div>
             <div class="row mt-5 ">
