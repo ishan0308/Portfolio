@@ -26,8 +26,8 @@ export const Career = () => {
                                 <h3>Cloudera</h3>
                                 <h4>Software Developer Engineer</h4>
                                 <p>• Developed an internal dashboard in Angular and Python, significantly enhancing project management and resource optimizatio</p>
-                                <p>• Enhanced CI/CD pipeline eciency and reliability by automating the deployment of GitHub runners across all repositories using
-Ansible to streamline the setup and configuration process; automating the download of necessary apt packages.</p>
+                                <p>• Engineered a CI/CD pipeline with Apache Airflow and a MongoDB-backed backend to automate test execution, manage 
+                                    configurations, and provide real-time test retrieval and status updates; </p>
                             </div>
                         </div>
                     </div>

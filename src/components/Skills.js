@@ -1,13 +1,10 @@
 import meter1 from "../assets/img/python.png";
-import meter2 from "../assets/img/spring-boot.png";
+import meter2 from "../assets/img/c.png";
 import meter3 from "../assets/img/angular.png";
 import meter4 from "../assets/img/aws.png";
 import meter5 from "../assets/img/docker.png";
 import meter6 from "../assets/img/kub.png";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -48,23 +45,23 @@ export const Skills = () => {
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
                                 <img src={meter2} alt="Image" style={{ width: '165px' }}/>
-                                <h5>Spring-boot</h5>
+                                <h5>C</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid ">
-                                <img src={meter3} alt="Image" style={{ width: '192px' }}/>
+                                <img src={meter3} alt="Image" style={{ width: '160px' }}/>
                                 <h5>Angular</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
-                                <img src={meter4} alt="Image" style={{ width: '18em' }}/>
+                                <img src={meter4} alt="Image" style={{ width: '17.3em' }}/>
                                 <h5>AWS</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
-                                <img src={meter5} alt="Image" style={{ width: '164px' }}/>
+                                <img src={meter5} alt="Image" style={{ width: '157px' }}/>
                                 <h5>Docker</h5>
                             </div>
                             <div className="col-md-4 col-sm-12 item container-fluid">
-                                <img src={meter6} alt="Image" style={{ width: '210px' }}/>
-                                <h5>Kubernetes</h5>
+                                <img src={meter6} alt="Image" style={{ width: '200px' }}/>
+                                <h5 >Kubernetes</h5>
                             </div>
                         </div>
                     </div>
