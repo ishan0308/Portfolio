@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, description, imgUrl, content, link }) => {
       <Col xs={12} md={6}>
         <a href={link} style={{ color: 'inherit', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
           <div className="proj-imgbx">
-            <img src={imgUrl} alt={title} style={{ width: '100%', height: 'auto' }} />
+            <img src={imgUrl} alt={title} style={{ width: '100%', height: 'auto'}} />
             <div className="proj-txtx">
               <h4>{title}</h4>
               <span>{description}</span>

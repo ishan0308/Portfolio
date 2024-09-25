@@ -1,11 +1,11 @@
-import meter1 from "../assets/img/python.png";
-import meter2 from "../assets/img/c.png";
-import meter3 from "../assets/img/angular.png";
-import meter4 from "../assets/img/aws.png";
-import meter5 from "../assets/img/docker.png";
-import meter6 from "../assets/img/kub.png";
+import meter1 from "../assets/img/skills/python.png";
+import meter2 from "../assets/img/skills/c.png";
+import meter3 from "../assets/img/skills/angular.png";
+import meter4 from "../assets/img/skills/aws.png";
+import meter5 from "../assets/img/skills/docker.png";
+import meter6 from "../assets/img/skills/kub.png";
 import 'react-multi-carousel/lib/styles.css';
-import colorSharp from "../assets/img/color-sharp.png"
+import colorSharp from "../assets/img/project/color-sharp.png"
 
 export const Skills = () => {
   const responsive = {
